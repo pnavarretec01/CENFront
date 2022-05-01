@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+  <g id="calificaciones" transform="translate(1842 18097)">
+    <rect id="Rectรกngulo_7917" data-name="Rectรกngulo 7917" width="42" height="42" rx="6" transform="translate(-1842 -18097)" fill="none"/>
+    <g id="star_black_24dp_1_" data-name="star_black_24dp (1)" transform="translate(-1833 -18088)">
+      <g id="Grupo_867" data-name="Grupo 867">
+        <path id="Trazado_466" data-name="Trazado 466" d="M0,0H24V24H0Z" fill="none"/>
+        <path id="Trazado_467" data-name="Trazado 467" d="M0,0H24V24H0Z" fill="none"/>
+      </g>
+      <g id="Grupo_868" data-name="Grupo 868" transform="translate(3.443 3.573)">
+        <path id="Trazado_468" data-name="Trazado 468" d="M12,17.27l4.15,2.51a1,1,0,0,0,1.49-1.08l-1.1-4.72,3.67-3.18a1,1,0,0,0-.57-1.75l-4.83-.41L12.92,4.18a1,1,0,0,0-1.84,0L9.19,8.63l-4.83.41a1,1,0,0,0-.57,1.75l3.67,3.18-1.1,4.72a1,1,0,0,0,1.49,1.08Z" transform="translate(-3.443 -3.573)" fill="#003e8d"/>
+      </g>
+    </g>
+  </g>
+</svg>

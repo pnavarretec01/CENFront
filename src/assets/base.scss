@@ -1,0 +1,241 @@
+// BOOTSTRAP 4 VARIABLES
+
+@import "components/bootstrap4/functions";
+@import "components/bootstrap4/variables";
+@import "components/bootstrap4/mixins";
+
+// ArchitectUI Themes Variables
+
+@import "themes/layout-variables";
+
+// BOOTSTRAP 4 IMPORTS
+
+@import "components/bootstrap4/root";
+@import "components/bootstrap4/reboot";
+@import "components/bootstrap4/type";
+@import "components/bootstrap4/images";
+@import "components/bootstrap4/code";
+@import "components/bootstrap4/grid";
+@import "components/bootstrap4/tables";
+@import "components/bootstrap4/forms";
+@import "components/bootstrap4/buttons";
+@import "components/bootstrap4/transitions";
+@import "components/bootstrap4/dropdown";
+@import "components/bootstrap4/button-group";
+@import "components/bootstrap4/input-group";
+@import "components/bootstrap4/custom-forms";
+@import "components/bootstrap4/nav";
+@import "components/bootstrap4/navbar";
+@import "components/bootstrap4/card";
+@import "components/bootstrap4/breadcrumb";
+@import "components/bootstrap4/pagination";
+@import "components/bootstrap4/badge";
+@import "components/bootstrap4/jumbotron";
+@import "components/bootstrap4/alert";
+@import "components/bootstrap4/progress";
+@import "components/bootstrap4/media";
+@import "components/bootstrap4/list-group";
+@import "components/bootstrap4/close";
+@import "components/bootstrap4/toasts";
+@import "components/bootstrap4/modal";
+@import "components/bootstrap4/tooltip";
+@import "components/bootstrap4/popover";
+@import "components/bootstrap4/carousel";
+@import "components/bootstrap4/spinners";
+@import "components/bootstrap4/utilities";
+@import "components/bootstrap4/print";
+
+// LAYOUT
+
+@import "layout/layout";
+
+// UTILS
+
+@import "utils/helpers";
+@import "utils/backgrounds";
+@import "utils/animate";
+@import "utils/comps-animations";
+
+// ELEMENTS
+
+@import "elements/buttons";
+@import "elements/dropdown";
+@import "elements/badges";
+@import "elements/accordions";
+@import "elements/modals";
+@import "elements/timeline";
+@import "elements/popovers-tooltips";
+
+// DASHBOARD BOXES
+
+@import "widgets/chart-boxes/chart-boxes";
+@import "widgets/content-boxes/content-boxes";
+
+// PAGES
+@import "pages/userpages";
+
+// COMPONENTS
+
+// Perfect Scrollbar
+
+@import "components/perfect-scrollbar/perfect-scrollbar";
+
+// Hamburger button
+
+@import "components/hamburgers/hamburgers";
+
+// Icons
+
+@import "components/icons/p7icons";
+
+// Responsive
+
+@import "layout/responsive/responsive-base";
+
+// DEMO
+
+@import "demo-ui/demo";
+
+// APLICACION
+
+@import "Application/base";
+
+// Login
+
+@import "Application/login/base";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+body {
+    font-family: "Roboto", sans-serif;
+}
+.bread{
+    background-color: transparent !important;
+}
+.vsm-title {
+    font: normal normal normal 16px/19px Roboto;
+    letter-spacing: 0px;
+    opacity: 1;
+    font-size: 14px;
+    color: #003e8d;
+}
+
+.vsm-link:hover {
+    background: #fcdbc7 !important;
+}
+.v-sidebar-menu .vsm-item.active-item > .vsm-link {
+    background: #fcdbc7 !important;
+    color: #eb6919 !important;
+}
+.v-sidebar-menu .vsm-item.active-item > .vsm-link > .vsm-title {
+    background: #fcdbc7 !important;
+    color: #eb6919 !important;
+}
+.v-sidebar-menu {
+    margin-top: 4em;
+}
+.app-header__logo {
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+@media (max-width: 1366px) {
+    .select-exportar {
+        margin-bottom: 5%;
+    }
+    .v-sidebar-menu .vsm-title {
+        top: 10px;
+    }
+    .app-header__logo {
+        display: none !important;
+    }
+}
+@media (min-width: 1366px) {
+
+    .v-sidebar-menu .vsm-title {
+        top: 0px;
+    }
+
+}
+.vs__selected-options {
+    min-height: 32px !important;
+}
+@media (max-width: 990px) {
+    .v-sidebar-menu .vsm-item.active-item > .vsm-link > .vsm-title {
+        top: 10px;
+    }
+}
+.invalid-vselect {
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #ff7851;
+}
+@media (max-width: 640px) {
+    .select-exportar {
+        width: 280px !important;
+        font-size: 13px !important;
+    }
+}
+.v-sidebar-menu .vsm-item.active-item > .vsm-link > .home-icon {
+    background-image: url("~@/Components/Common/IconosSidebar/homeNaranjo.svg") !important;
+    margin-top: -22px !important;
+}
+.v-sidebar-menu .vsm-item > .vsm-link > .home-icon {
+    background-image: url("~@/Components/Common/IconosSidebar/home.svg") !important;
+    margin-top: -22px !important;
+}
+.v-sidebar-menu .vsm-item.active-item > .vsm-link > .leña-icon {
+    background-image: url("~@/Components/Common/IconosSidebar/leñaNaranjo.svg") !important;
+    margin-top: -22px !important;
+}
+.v-sidebar-menu .vsm-item > .vsm-link > .leña-icon {
+    background-image: url("~@/Components/Common/IconosSidebar/leña.svg") !important;
+    margin-top: -22px !important;
+}
+.v-sidebar-menu .vsm-item.active-item > .vsm-link > .pellet-icon {
+    background-image: url("~@/Components/Common/IconosSidebar/pelletNaranjo.svg") !important;
+    margin-top: -22px !important;
+}
+.v-sidebar-menu .vsm-item > .vsm-link > .pellet-icon {
+    background-image: url("~@/Components/Common/IconosSidebar/pellet.svg") !important;
+    margin-top: -22px !important;
+}
+.v-sidebar-menu .vsm-item.active-item > .vsm-link > .tarifa-icon {
+    background-image: url("~@/Components/Common/IconosSidebar/tarifaNaranjo.svg") !important;
+    margin-top: -22px !important;
+}
+.v-sidebar-menu .vsm-item > .vsm-link > .tarifa-icon {
+    background-image: url("~@/Components/Common/IconosSidebar/tarifa.svg") !important;
+    margin-top: -22px !important;
+}
+.v-sidebar-menu .vsm-item.active-item > .vsm-link > .calificaciones-icon {
+    background-image: url("~@/Components/Common/IconosSidebar/calificacionesNaranjo.svg") !important;
+    margin-top: -22px !important;
+}
+.v-sidebar-menu .vsm-item > .vsm-link > .calificaciones-icon {
+    background-image: url("~@/Components/Common/IconosSidebar/calificaciones.svg") !important;
+    margin-top: -22px !important;
+}
+.v-sidebar-menu .vsm-item.active-item > .vsm-link > .usuarios-icon {
+    background-image: url("~@/Components/Common/IconosSidebar/usuariosNaranjo.svg") !important;
+    margin-top: -22px !important;
+}
+.v-sidebar-menu .vsm-item > .vsm-link > .usuarios-icon {
+    background-image: url("~@/Components/Common/IconosSidebar/usuarios.svg") !important;
+    margin-top: -22px !important;
+}
+.v-sidebar-menu .vsm-item.active-item > .vsm-link > .dpa-icon {
+    background-image: url("~@/Components/Common/IconosSidebar/dpaNaranjo.svg") !important;
+    margin-top: -22px !important;
+}
+.v-sidebar-menu .vsm-item > .vsm-link > .dpa-icon {
+    background-image: url("~@/Components/Common/IconosSidebar/dpa.svg") !important;
+    margin-top: -22px !important;
+}
+.v-sidebar-menu .vsm-item.active-item > .vsm-link > .reporte-icon {
+    background-image: url("~@/Components/Common/IconosSidebar/reporteNaranjo.svg") !important;
+    margin-top: -22px !important;
+}
+.v-sidebar-menu .vsm-item > .vsm-link > .reporte-icon {
+    background-image: url("~@/Components/Common/IconosSidebar/reporte.svg") !important;
+    margin-top: -22px !important;
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+  <g id="tarifa_electrica" data-name="tarifa electrica" transform="translate(1904 18097)">
+    <rect id="Rectรกngulo_7917" data-name="Rectรกngulo 7917" width="42" height="42" rx="6" transform="translate(-1904 -18097)" fill="none"/>
+    <g id="offline_bolt_black_24dp" transform="translate(-1895 -18088)">
+      <path id="Trazado_4127" data-name="Trazado 4127" d="M0,0H24V24H0Z" fill="none"/>
+      <path id="Trazado_4128" data-name="Trazado 4128" d="M12,2.02A9.98,9.98,0,1,0,21.98,12,9.982,9.982,0,0,0,12,2.02Zm-.52,15.86V13.74H8.82a.5.5,0,0,1-.44-.73l3.68-7.17a.5.5,0,0,1,.94.23v4.19h2.54a.5.5,0,0,1,.45.72L12.43,18.1a.5.5,0,0,1-.95-.22Z" transform="translate(0 0)" fill="#EB6919"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,82 @@
+{
+  "name": "calefaccion-en-linea",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.17",
+    "@fortawesome/free-solid-svg-icons": "^5.8.1",
+    "@fortawesome/vue-fontawesome": "^0.1.6",
+    "@mapbox/mapbox-gl-geocoder": "^5.0.0",
+    "@progress/kendo-vue-excel-export": "^3.0.6",
+    "animate-sass": "^0.8.2",
+    "axios": "^0.24.0",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.20",
+    "chart.js": "^2.8.0",
+    "core-js": "^2.5.7",
+    "es6-promise": "^4.2.6",
+    "increase-memory-limit": "^1.0.6",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.23",
+    "mapbox-gl": "^2.7.1",
+    "node-sass": "^4.14.1",
+    "pe7-icon": "^1.0.4",
+    "perfect-scrollbar": "^1.4.0",
+    "popper.js": "^1.15.0",
+    "sass-loader": "^7.1.0",
+    "v-click-outside": "^3.1.2",
+    "vue": "^2.6.10",
+    "vue-axios": "^3.4.0",
+    "vue-chartjs": "^3.4.2",
+    "vue-mapbox": "^0.4.1",
+    "vue-mapbox-geocoder": "^0.2.0",
+    "vue-perfect-scrollbar": "^0.1.0",
+    "vue-resize-directive": "^1.2.0",
+    "vue-router": "^3.0.5",
+    "vue-select": "^3.16.0",
+    "vue-sidebar-menu": "^3.7.0",
+    "vue-sweetalert2": "^5.0.2",
+    "vue-toastr": "^2.1.2",
+    "vue2-timepicker": "^1.1.6",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.6.0",
+    "@vue/cli-service": "^4.5.11",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

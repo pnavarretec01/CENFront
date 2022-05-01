@@ -1,0 +1,249 @@
+.row-p {
+    margin: 0px !important;
+}
+.c-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.f-usuario {
+    margin-top: 5% !important;
+}
+.r-contrasena {
+    cursor: pointer;
+    color: #003e8d;
+    :hover {
+        text-decoration: underline #003e8d;
+    }
+}
+.error-login {
+    color: red;
+}
+.error-login > i {
+    font-size: 15px;
+    font-weight: 800;
+}
+.c-bienvenido {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #4a4a4a;
+    opacity: 1;
+}
+.logo {
+    position: absolute;
+    left: 42%;
+    top: 5%;
+    width: 30%;
+}
+.container-formulario-login {
+    padding-left: 8% !important;
+    padding-right: 8% !important;
+}
+.imagen-lateral {
+    height: 100vh;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //background-image: url("~@/assets/static/media/imagen_lateral.png");
+}
+.p-0 {
+    padding: 0px;
+}
+
+input:focus,
+select:focus,
+select,
+input.form-control:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+@import "../../components/bootstrap4/functions";
+@import "../../components/bootstrap4/variables";
+@import "../../components/bootstrap4/mixins";
+
+@import "../../themes/layout-variables";
+
+@import "../../components/bootstrap4/root";
+@import "../../components/bootstrap4/reboot";
+@import "../../components/bootstrap4/type";
+@import "../../components/bootstrap4/images";
+@import "../../components/bootstrap4/code";
+@import "../../components/bootstrap4/grid";
+@import "../../components/bootstrap4/tables";
+@import "../../components/bootstrap4/forms";
+@import "../../components/bootstrap4/buttons";
+@import "../../components/bootstrap4/transitions";
+@import "../../components/bootstrap4/dropdown";
+@import "../../components/bootstrap4/button-group";
+@import "../../components/bootstrap4/input-group";
+@import "../../components/bootstrap4/custom-forms";
+@import "../../components/bootstrap4/nav";
+@import "../../components/bootstrap4/navbar";
+@import "../../components/bootstrap4/card";
+@import "../../components/bootstrap4/breadcrumb";
+@import "../../components/bootstrap4/pagination";
+@import "../../components/bootstrap4/badge";
+@import "../../components/bootstrap4/jumbotron";
+@import "../../components/bootstrap4/alert";
+@import "../../components/bootstrap4/progress";
+@import "../../components/bootstrap4/media";
+@import "../../components/bootstrap4/list-group";
+@import "../../components/bootstrap4/close";
+@import "../../components/bootstrap4/toasts";
+@import "../../components/bootstrap4/modal";
+@import "../../components/bootstrap4/tooltip";
+@import "../../components/bootstrap4/popover";
+@import "../../components/bootstrap4/carousel";
+@import "../../components/bootstrap4/spinners";
+@import "../../components/bootstrap4/utilities";
+@import "../../components/bootstrap4/print";
+@import "../../components/icons/p7icons";
+@media (max-width: 990px) {
+    .imagen-lateral {
+        display: none;
+    }
+    .c-formulario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 1px;
+    }
+}
+@media (max-height: 800px) {
+    .c-bienvenido {
+        margin-top: 15% !important;
+    }
+}
+@media (max-width: 500px) {
+    .c-bienvenido {
+        margin-top: 40% !important;
+    }
+    .container-formulario-login {
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+    .logo {
+        position: absolute;
+        left: 28%;
+        top: 5%;
+        width: 30%;
+    }
+}
+@media (max-width: 400px) {
+    .div-contenedor {
+        height: auto !important;
+    }
+}
+.div-contenedor {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    position: relative;
+    width: 920px;
+    height: auto;
+    margin: 20px auto;
+    border: 1px solid #dddd;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
+}
+
+.box-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media (min-width: 777px) {
+    .box-1 {
+        margin-left: 10%;
+        width: 30%;
+    }
+}
+@media (max-width: 776px) {
+    .box-1 img {
+        margin-left: 25%;
+        margin-right: auto;
+        width: 50%;
+        height: 10%;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+}
+
+.box-2 {
+    padding: 10px;
+}
+
+.box-2 {
+    width: 50%;
+}
+
+.div-contenedor .box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    text-decoration: none;
+    color: #615f5fdd;
+}
+
+@media (max-width: 767px) {
+    body {
+        padding: 10px;
+    }
+
+    .body {
+        width: 100%;
+        height: 100%;
+    }
+
+    .box-1 {
+        width: 100%;
+    }
+
+    .box-2 {
+        width: 100%;
+        height: 440px;
+    }
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centrarimg {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.centrar-form {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.divLogo {
+    margin-bottom: 2rem;
+}
+@media (max-width: 990px) {
+    .centrarimg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .divLogo {
+        margin-bottom: -6rem;
+    }
+}

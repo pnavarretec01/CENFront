@@ -1,0 +1,180 @@
+.tooltip1 {
+    cursor: pointer;
+}
+.tooltip1 .tooltip1text {
+    filter: drop-shadow(0 3px 5px #ccc) !important;
+    margin-left: 15%;
+    margin-top: -25%;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    text-align: left !important;
+    border: 1px solid gray;
+    visibility: hidden;
+    height: 200px;
+    width: 800px;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px 0;
+    position: absolute;
+    z-index: 1000000;
+}
+.tooltip1 .tooltip1text:after {
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    content: "";
+    position: absolute;
+    left: 0%;
+    bottom: 65%;
+    margin-left: -13px;
+    width: 25px;
+    height: 25px;
+    background: white;
+    transform: rotate(45deg);
+}
+.tooltip1:hover .tooltip1text {
+    visibility: visible;
+}
+
+@media (max-width: 991px) {
+    .tooltip1 .tooltip1text {
+        margin-left: 25%;
+        margin-top: -50%;
+        font-size: 13px;
+        height: 250px;
+        width: 550px;
+        padding: 10px 0;
+    }
+    .tooltip1 .tooltip1text:after {
+        left: 0%;
+        bottom: 65%;
+        margin-left: -13px;
+        width: 25px;
+        height: 25px;
+    }
+    .boton-generar {
+        position: inherit !important;
+        bottom: 0;
+    }
+}
+@media (max-width: 775px) {
+    .tooltip1 .tooltip1text {
+        margin-left: 25%;
+        margin-top: -65%;
+        font-size: 13px;
+        height: 300px;
+        width: 450px;
+        padding: 10px 0;
+    }
+    .tooltip1 .tooltip1text:after {
+        left: 0%;
+        bottom: 65%;
+        margin-left: -13px;
+        width: 25px;
+        height: 25px;
+    }
+}
+@media (max-width: 767px) {
+    .tooltip1 .tooltip1text {
+        margin-left: 8%;
+        margin-top: -21%;
+        font-size: 13px;
+        height: 300px;
+        width: 450px;
+        padding: 10px 0;
+    }
+    .tooltip1 .tooltip1text:after {
+        left: 0%;
+        bottom: 65%;
+        margin-left: -13px;
+        width: 25px;
+        height: 25px;
+    }
+}
+@media (max-width: 590px) {
+    .tooltip1 .tooltip1text {
+        margin-left: 8%;
+        margin-top: -25%;
+        font-size: 13px;
+        height: 350px;
+        width: 400px;
+        padding: 10px 0;
+    }
+    .tooltip1 .tooltip1text:after {
+        left: 0%;
+        bottom: 65%;
+        margin-left: -13px;
+        width: 25px;
+        height: 25px;
+    }
+}
+@media (max-width: 499px) {
+    .tooltip1 .tooltip1text {
+        margin-left: 8%;
+        margin-top: -31%;
+        font-size: 13px;
+        height: 400px;
+        width: 350px;
+        padding: 10px 0;
+    }
+    .tooltip1 .tooltip1text:after {
+        left: 0%;
+        bottom: 65%;
+        margin-left: -13px;
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 445px) {
+    .tooltip1 .tooltip1text {
+        margin-left: 8%;
+        margin-top: -35%;
+        font-size: 13px;
+        height: 430px;
+        width: 320px;
+        padding: 10px 0;
+    }
+    .tooltip1 .tooltip1text:after {
+        left: 0%;
+        bottom: 65%;
+        margin-left: -13px;
+        width: 25px;
+        height: 25px;
+    }
+}
+@media (max-width: 425px) {
+    .tooltip1 .tooltip1text {
+        margin-left: 8%;
+        margin-top: -42%;
+        font-size: 13px;
+        height: 480px;
+        width: 300px;
+        padding: 10px 0;
+    }
+    .tooltip1 .tooltip1text:after {
+        left: 0%;
+        bottom: 65%;
+        margin-left: -13px;
+        width: 25px;
+        height: 25px;
+    }
+}
+@media (max-width: 392px) {
+    .tooltip1 .tooltip1text {
+        margin-left: 10%;
+        margin-top: -47%;
+        font-size: 13px;
+        height: 530px;
+        width: 270px;
+        padding: 10px 0;
+    }
+    .tooltip1 .tooltip1text:after {
+        left: 0%;
+        bottom: 65%;
+        margin-left: -13px;
+        width: 25px;
+        height: 25px;
+    }
+}

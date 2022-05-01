@@ -1,0 +1,106 @@
+.body-ventana-usuario {
+    background: #fbfbfb 0% 0% no-repeat padding-box !important;
+    box-shadow: 0px 3px 6px #00000029 !important;
+    border-radius: 6px !important;
+    opacity: 1 !important;
+}
+.btn-cierre {
+    font: normal normal bold 16px/19px Roboto !important;
+    height: 38px;
+    color: #fff !important;
+    font-size: 13px !important;
+    width: 118px;
+    background: #48759b 0% 0% no-repeat padding-box !important;
+    border-radius: 4px;
+    opacity: 1;
+}
+.btn-cierre:active {
+    background-color: #2e5587a8 !important;
+}
+.btn-cierre:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.1);
+}
+.nombre-usuario-ventana {
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+}
+.cargo-usuario-ventana {
+    text-align: left;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+}
+.flecha-ventanausuario {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.headercard-usaurio {
+    background: transparent linear-gradient(92deg, #eb6919 0%, #f59b64 100%) 0%
+        0% no-repeat padding-box !important;
+    opacity: 1;
+    height: 130px !important;
+}
+.ventana-usuario {
+    right: 0%;
+    float: right;
+    top: 60px;
+    position: absolute;
+}
+.boton-usuario {
+    cursor: pointer;
+}
+.div-usuario {
+    margin-top: 5em;
+}
+.linea-pre-user {
+    border-left: 1px solid #bcbcbc80;
+    height: 35px;
+}
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nombre-usuario {
+    text-align: left;
+    letter-spacing: 0.32px;
+    color: #4a4a4a;
+    opacity: 1;
+}
+@media (min-width: 461px) {
+    .ventana-usuario {
+        right: 0%;
+        float: right;
+        top: 60px;
+        position: fixed;
+    }
+}
+@media (max-width: 460px) {
+    .ventana-usuario {
+        z-index: 999;
+        left: 0%;
+        width: 100%;
+        top: 0;
+        -webkit-transition: all 0.2s;
+        transition: all 0.2s;
+        background: transparent;
+        padding: 0 10px !important;
+        overflow: hidden;
+        right: 0%;
+        float: right;
+        top: 60px;
+        position: fixed;
+    }
+}
